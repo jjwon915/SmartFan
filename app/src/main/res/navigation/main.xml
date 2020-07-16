@@ -17,7 +17,7 @@
         tools:layout="@layout/fragment_remote" />
     <fragment
         android:id="@+id/nav_settings"
-        android:name="com.example.myapplication.SettingFragment"
+        android:name="com.example.myapplication.SettingsFragment"
         android:label="Setting"
         tools:layout="@layout/fragment_setting" />
     <fragment
