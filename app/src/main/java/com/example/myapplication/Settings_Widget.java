@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 public class Settings_Widget extends AppCompatActivity {
 
@@ -12,9 +13,9 @@ public class Settings_Widget extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.settings__widget);
 
-        androidx.appcompat.widget.Toolbar toolbar = findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle(null); // 화면에 보이는 앱 제목 타이틀을 제거
+        getSupportActionBar().setTitle(null);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }

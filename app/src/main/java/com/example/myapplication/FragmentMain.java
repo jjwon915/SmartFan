@@ -13,6 +13,8 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.example.myapplication.R;
+import com.example.myapplication.Setting;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -77,3 +79,4 @@ class SettingsAdapter extends ArrayAdapter implements AdapterView.OnItemClickLis
         return convertView;
     }
 }
+

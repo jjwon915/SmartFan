@@ -7,7 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 
@@ -27,7 +26,7 @@ public class SettingsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View rootView = inflater.inflate(R.layout.fragment_setting, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_settings, container, false);
 
         //data를 가져와서 어답터와 연결해 준다. 서버에서 가져오는게 대부분 이다.
         settings = new ArrayList<>();
